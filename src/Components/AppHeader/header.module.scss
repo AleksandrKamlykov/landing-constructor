@@ -1,0 +1,22 @@
+.appHeader {
+    width: 100%;
+    height: 60px;
+    background-color: #222;
+    nav {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        gap: 15px;
+        margin-left: 5%;
+        .link {
+            text-transform: none;
+            text-decoration: none;
+            color: #33f;
+        }
+        .activeLink {
+            text-transform: none;
+            text-decoration: none;
+            color: #99f;
+        }
+    }
+}

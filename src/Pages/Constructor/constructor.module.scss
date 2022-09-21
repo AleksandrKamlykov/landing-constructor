@@ -1,0 +1,11 @@
+.wrapper {
+    display: flex;
+    gap: 20px;
+    height: 100%;
+
+    .previewBlock {
+        flex: 1;
+        border: 1px solid #222;
+        margin-top: 10px;
+    }
+}

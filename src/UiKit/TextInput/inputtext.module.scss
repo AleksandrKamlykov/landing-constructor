@@ -1,0 +1,17 @@
+.inputText {
+    padding: 5px 10px;
+    border-radius: var(--input-radius);
+    background-color: var(--base-input-bg);
+    border: 1px solid rgba(39, 39, 39, 0.999);
+    min-width: 100px;
+    font-size: 1rem;
+    // background-color: transparent;
+    &:focus {
+        outline: none;
+        box-shadow: 0px 0px 1px 1px transparent;
+    }
+}
+
+.fullWidth {
+    width: 100%;
+}
